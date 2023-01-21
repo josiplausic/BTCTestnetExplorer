@@ -50,7 +50,7 @@ function BlockInfo(){
                 </div>
                 <div className="row text-white bg-dark">
                     <div className="col">Amount transacted</div>
-                    <div className="col">{amountTransacted} BTC</div>
+                    <div className="col">{amountTransacted.toFixed(8)} BTC</div>
                     <div className="w-100"></div>
                 </div>
                 <div className="row text-white bg-dark">

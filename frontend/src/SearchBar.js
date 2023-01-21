@@ -42,9 +42,7 @@ function SearchBar(){
                 </select>
                 <button onClick={buttonClick} type="button" className="btn btn-outline-primary">Pretraži</button>
             </div>
-        </div>
-
-        
+        </div> 
     );
 }
 
